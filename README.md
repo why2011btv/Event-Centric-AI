@@ -34,7 +34,7 @@ Human languages always involve the description of real-world events, and so do m
 
 ### Causal relations
 #### Datasets
-- [RED](https://www.aclweb.org/anthology/W16-5706.pdf)
+- [RED](https://www.aclweb.org/anthology/W16-5706.pdf): 
 - [CaTeRs](https://www.aclweb.org/anthology/W16-1007.pdf)
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf): five types of event semantic relations: CAUSAL, SUB-EVENT, CO-REFERENCE, CONDITIONAL and COUNTERFACTUAL
 #### Models
@@ -43,7 +43,7 @@ Human languages always involve the description of real-world events, and so do m
 ### Super-sub (parent-child) relations / Event Hierarchy Construction
 #### Datasets
 - [RED](https://www.aclweb.org/anthology/W16-5706.pdf)
-- [HiEve](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1023_Paper.pdf)
+- [HiEve](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1023_Paper.pdf): randomly selected 100 documents from the GraphEve corpus, which contains gold-annotated event mentions; given a pair of event mentions, annotators were instructed to annotate one of the following relation types: SuperSub, SubSuper, Coref, NoRel
 - [IC](https://www.aclweb.org/anthology/W13-1203.pdf): 100 texts in the IC domain; annotated only instances of full coreference, Subevent, and Member relations
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf)
 #### Models
