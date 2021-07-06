@@ -135,7 +135,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Finn et al., ICML'17](http://proceedings.mlr.press/v70/finn17a/finn17a.pdf)
 - [Bansal et al., COLING'20](https://aclanthology.org/2020.coling-main.448.pdf)
 - [Yin et al., arXiv preprint'20](https://arxiv.org/pdf/2007.09604.pdf)
-- [Deng et al., WSDM'20](https://dl.acm.org/doi/pdf/10.1145/3336191.3371796)
+- [Deng et al., WSDM'20](https://dl.acm.org/doi/pdf/10.1145/3336191.3371796): propose a Dynamic-Memory-Based Prototypical Network (DMB-PN), which exploits Dynamic Memory Network (DMN) to not only learn better prototypes for event types, but also produce more robust sentence encodings for event mentions
 ### 2. Constrained Learning
 - [Han et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.461.pdf): propose a framework that enhances deep neural network with distributional constraints constructed by probabilistic domain knowledge. We solve the constrained inference problem via Lagrangian Relaxation and apply it to end-to-end event temporal relation extraction tasks
 - [Wang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.51.pdf)
