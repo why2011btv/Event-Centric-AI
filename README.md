@@ -63,35 +63,35 @@ Human languages always involve the description of real-world events, and so do m
 - [Zhang et al., ongoing]
 
 
-### Schema Induction
+### 6. Schema Induction
 #### Models
 - [Li et al., EMNLP'20](https://www.aclweb.org/anthology/2020.emnlp-main.50.pdf): Event Graph Schema, where two event types are connected through multiple paths involving entities that fill important roles in a coherent story; introduce Path Language Model, an auto-regressive language model trained on event-event paths,  and select salient and coherent paths to probabilistically construct these graph schemas. 
 - [Zhang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.119.pdf): leverages analogies among processes and conceptualization of sub-event instances to predict the whole sub-event sequence of previously unseen open-domain processes
 
-### Event Representation & Application
+### 7. Event Representation & Application
 #### Models
 - [Chaturvedi et al., EMNLP'17](https://aclanthology.org/D17-1168.pdf): Event Prediction
 - [Peng et al., CoNLL'17](https://aclanthology.org/K17-1019.pdf): 
 - [Peng et al., CoNLL'19](https://aclanthology.org/K19-1051/): EventLM
 - [Zeng et al., TextGraphs'21](https://www.aclweb.org/anthology/2021.textgraphs-1.5.pdf): Event Network Embedding, aiming at representing events with low-dimensional and informative embeddings by incorporating neighboring events; Event Network constructed from one VOA news article, where events are connected through entities involved; 
 
-### <a name="KG_Tasks"></a> Event Knowledge Graphs
+### <a name="KG_Tasks"></a> 8. Event Knowledge Graphs
 - [EventKG](https://arxiv.org/pdf/1804.04526.pdf): A Multilingual Event-Centric Temporal Knowledge Graph
 - [ASER](https://hkust-knowcomp.github.io/ASER/html/index.html): Activities, States, Events, and their Relations
 - [EventWiki](https://www.aclweb.org/anthology/L18-1079.pdf): EventWiki concentrate on major events, in which all entries in EventWiki are important events in mankind history. 
 
 
 ## <a name="CV_Tasks"></a> Events in CV
-### Event Extraction
+### 1. Event Extraction
 #### Datasets
 - [](): Video M2E2
 #### Models
 - [Jin et al., IEEE Transactions on Multimedia'21](https://ieeexplore.ieee.org/document/9405453)
 - [Wen et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.16.pdf): Video M2E2 (70.0 in Acc.)
-### Event Grounding
+### 2. Event Grounding
 #### Models
 - [Bao et al., AAAI'21](https://ojs.aaai.org/index.php/AAAI/article/view/16175)
-### Action Localization 
+### 3. Action Localization 
 #### Models
 - [Gong et al., IJCAI'21](http://www.muyadong.com/publication.html)
 
