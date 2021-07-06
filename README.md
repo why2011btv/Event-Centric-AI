@@ -98,10 +98,11 @@ Human languages always involve the description of real-world events, and so do m
 
 
 ## <a name="Methods"></a> Methodology
-- Meta-Learning
-- Constrained Learning
-- Zero-shot (few-shot) Learning
-- Graph Networks
-- Noisy Labels: [Zhou et al., preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
+### 1. Meta-Learning
+### 2. Constrained Learning
+### 3. Zero-shot (few-shot) Learning
+### 4. Graph Networks
+### 5. Noisy Labels
+- [Zhou et al., preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
 
 ## <a name="Ack"></a> Acknowledgements
