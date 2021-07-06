@@ -62,6 +62,11 @@ Human languages always involve the description of real-world events, and so do m
 - [Jindal et al., COLING'20](https://aclanthology.org/2020.coling-main.10.pdf)
 - [Zhang et al., ongoing]
 
+### 6. Goal / Intention Detection
+#### Models
+- [Zhang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.374v2.pdf)
+- [Lyu et al., AACL'20](https://aclanthology.org/2020.aacl-main.35.pdf)
+- [Chen et al., CoNLL'20](https://aclanthology.org/2020.conll-1.43.pdf)
 
 ### 6. Schema Induction
 #### Models
@@ -101,7 +106,10 @@ Human languages always involve the description of real-world events, and so do m
 ### 1. Meta-Learning
 ### 2. Constrained Learning
 ### 3. Zero-shot (few-shot) Learning
+- [Zhang et al., ACL'21 (Findings)](https://arxiv.org/abs/2012.15243)
+- [Lyu et al., ACL'21]()
 ### 4. Graph Networks
+- [Wen et al., NAACL'21](https://aclanthology.org/2021.naacl-main.6.pdf)
 ### 5. Noisy Labels
 - [Zhou et al., preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
 
