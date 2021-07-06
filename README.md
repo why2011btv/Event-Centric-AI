@@ -22,8 +22,10 @@ Human languages always involve the description of real-world events, and so do m
 #### Datasets
 - [ECB+]()
 #### Models
-- [Choubey et al., EACL'21](https://aclanthology.org/N18-1077.pdf)
-- 
+- [Choubey et al., ACL'18](https://aclanthology.org/P18-1045.pdf)
+- [Choubey et al., EACL'21](https://aclanthology.org/2021.eacl-main.101.pdf)
+- [Lai et al., NAACL'21](https://aclanthology.org/2021.naacl-main.274.pdf)
+
 ### 3. Temporal relations
 #### Datasets
 - [TimeML](https://www.aaai.org/Papers/Symposia/Spring/2003/SS-03-07/SS03-07-005.pdf): a specification language for events and temporal expressions; EVENT, TIMEX3, SIGNAL, and LINK.
@@ -51,6 +53,7 @@ Human languages always involve the description of real-world events, and so do m
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf): five types of event semantic relations: CAUSAL, SUB-EVENT, CO-REFERENCE, CONDITIONAL and COUNTERFACTUAL
 #### Models
 - [Ning et al., ACL'18](https://www.aclweb.org/anthology/P18-1212.pdf): TCR (77.3 in F1)
+- [Gao et al., NAACL'19](https://aclanthology.org/N19-1179.pdf)
 
 ### 5. Super-sub (parent-child) relations / Event Hierarchy Construction
 #### Datasets
@@ -60,6 +63,7 @@ Human languages always involve the description of real-world events, and so do m
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf)
 #### Models
 - [Araki et al., LREC'14]: We used a corpus consisting of 65 newspaper articles in the IC domain.
+- [Badgett et al., EMNLP'16](https://aclanthology.org/D16-1088.pdf)
 
 ### 6. Essentiality & Salience
 #### Datasets
@@ -83,6 +87,11 @@ Human languages always involve the description of real-world events, and so do m
 - [Li et al., EMNLP'20](https://www.aclweb.org/anthology/2020.emnlp-main.50.pdf): Event Graph Schema, where two event types are connected through multiple paths involving entities that fill important roles in a coherent story; introduce Path Language Model, an auto-regressive language model trained on event-event paths,  and select salient and coherent paths to probabilistically construct these graph schemas. 
 - [Zhang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.119.pdf): leverages analogies among processes and conceptualization of sub-event instances to predict the whole sub-event sequence of previously unseen open-domain processes
 
+### Event & Discourse
+- [Dai et al., EMNLP'19](https://aclanthology.org/D19-1295.pdf): propose a regularization approach that tightly integratesthese constraints with contexts for deriving word representations
+- [Choubey et al., ACL'20](https://aclanthology.org/2020.acl-main.478.pdf)
+- [Chen et al., AACL'20](https://aclanthology.org/2020.aacl-main.81.pdf)
+
 ### 10. Event Representation & Application
 #### Models
 - [Chaturvedi et al., EMNLP'17](https://aclanthology.org/D17-1168.pdf): Event Prediction
@@ -93,6 +102,7 @@ Human languages always involve the description of real-world events, and so do m
 ### 11. Common Sense & Knowledge
 #### Models
 - [Ning et al., NAACL'18](https://aclanthology.org/N18-1077.pdf)
+- [Yao et al., ACL'18](https://aclanthology.org/P18-1050.pdf): explored narratology principles and built a weakly supervised approach that identifies 287k narrative paragraphs from three large text corpora; then extracted rich temporal event knowledge from these narrative paragraphs.   
 - [Zhou et al., ACL'20](https://aclanthology.org/2020.acl-main.678.pdf)
 - [Yao et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.430.pdf)
 - [Choubey et al., EACL'21](https://aclanthology.org/2021.eacl-main.101.pdf)
@@ -131,6 +141,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Zhang et al., ACL'21 (Findings)](https://arxiv.org/abs/2012.15243)
 - [Lyu et al., ACL'21]()
 ### 4. Graph Networks
+- [Chen et al., AACL'20](https://aclanthology.org/2020.aacl-main.81.pdf): build graphs with candidate role filler extractions enriched by sentential  embeddings  as nodes, and use graph attention networks to identify event regions in a document and aggregate event information
 - [Wen et al., NAACL'21](https://aclanthology.org/2021.naacl-main.6.pdf)
 ### 5. Noisy Labels
 - [Zhou et al., arXiv preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
