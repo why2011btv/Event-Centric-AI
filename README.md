@@ -124,9 +124,12 @@ Human languages always involve the description of real-world events, and so do m
 ### 2. Event Grounding
 #### Models
 - [Bao et al., AAAI'21](https://ojs.aaai.org/index.php/AAAI/article/view/16175)
-### 3. Action Localization 
+### 3. Action Localization & Event Captioning
 #### Models
+- [Krishna et al., ICCV'17](https://openaccess.thecvf.com/content_ICCV_2017/papers/Krishna_Dense-Captioning_Events_in_ICCV_2017_paper.pdf)
 - [Gong et al., IJCAI'21](http://www.muyadong.com/publication.html)
+### 4. Event Prediction
+- [Lei et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.706.pdf)
 
 
 
@@ -152,4 +155,5 @@ Human languages always involve the description of real-world events, and so do m
 - [He et al., ACL'20](https://aclanthology.org/2020.acl-main.772.pdf): QUASE learns representations from QA data, using BERT or other state-of-the-art contextual language models
 
 
-## <a name="Ack"></a> Acknowledgements
+## <a name="Ack"></a> Professors Working on Events
+- Dan Roth, Heng Ji, Ruihong Huang, Claire Cardie, Nanyun Peng, Chris Callison Burch, Martha Palmer, Eduard Hovy, Yadong Mu
