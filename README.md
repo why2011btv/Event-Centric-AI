@@ -26,7 +26,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Choubey et al., EACL'21](https://aclanthology.org/2021.eacl-main.101.pdf)
 - [Lai et al., NAACL'21](https://aclanthology.org/2021.naacl-main.274.pdf)
 
-### 3. Temporal relations
+### 3. Temporal Relation & Duration
 #### Datasets
 - [TimeML](https://www.aaai.org/Papers/Symposia/Spring/2003/SS-03-07/SS03-07-005.pdf): a specification language for events and temporal expressions; EVENT, TIMEX3, SIGNAL, and LINK.
 - [2012 i2b2 Challenge](https://academic.oup.com/jamia/article/20/5/806/726374): The Sixth Informatics for Integrating Biology and the Bedside (i2b2) Natural Language Processing Challenge for Clinical Records focused on the temporal relations in clinical narratives. 
@@ -43,6 +43,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Han et al., EMNLP'19](https://www.aclweb.org/anthology/D19-1041.pdf): MATRES (59.6 in F1, *End-to-end*), TB-Dense (49.4 in F1, *End-to-end*)
 - [Han et al., CoNLL'19](https://www.aclweb.org/anthology/K19-1062.pdf): MATRES (81.7 in F1), TB-Dense (63.2 in F1), TCR (80.9 in F1)
 - [Han et al., EMNLP'20](https://www.aclweb.org/anthology/2020.emnlp-main.461.pdf): TB-Dense (50.5 in F1, *End-to-end*), 2012 i2b2 Challenge (77.3 in F1, *End-to-end*)
+- [Yang et al., EMNLP'20 (Findings)](https://aclanthology.org/2020.findings-emnlp.302.pdf)
 - [Han et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.7.pdf): TB-Dense (64.5 in F1), MATRES (75.5 in F1)
 - [Wen et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.16.pdf): MATRES (78.8 in F1), MATRES-b (89.6 in Acc.)
 
@@ -62,7 +63,7 @@ Human languages always involve the description of real-world events, and so do m
 - [IC](https://www.aclweb.org/anthology/W13-1203.pdf): 100 texts in the IC domain; annotated only instances of full coreference, Subevent, and Member relations
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf)
 #### Models
-- [Araki et al., LREC'14]: We used a corpus consisting of 65 newspaper articles in the IC domain.
+- [Araki et al., LREC'14](http://www.lrec-conf.org/proceedings/lrec2014/pdf/963_Paper.pdf): We used a corpus consisting of 65 newspaper articles in the IC domain.
 - [Badgett et al., EMNLP'16](https://aclanthology.org/D16-1088.pdf)
 
 ### 6. Essentiality & Salience
@@ -107,7 +108,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Yao et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.430.pdf)
 - [Choubey et al., EACL'21](https://aclanthology.org/2021.eacl-main.101.pdf)
 
-### <a name="KG_Tasks"></a> 12. Event Knowledge Graphs
+### 12. Event Knowledge Graphs
 - [EventKG](https://arxiv.org/pdf/1804.04526.pdf): A Multilingual Event-Centric Temporal Knowledge Graph
 - [ASER](https://hkust-knowcomp.github.io/ASER/html/index.html): Activities, States, Events, and their Relations
 - [EventWiki](https://www.aclweb.org/anthology/L18-1079.pdf): EventWiki concentrate on major events, in which all entries in EventWiki are important events in mankind history. 
@@ -116,7 +117,7 @@ Human languages always involve the description of real-world events, and so do m
 ## <a name="CV_Tasks"></a> Events in CV
 ### 1. Event Extraction
 #### Datasets
-- [](): Video M2E2
+- [Li et al., ACL'20](https://aclanthology.org/2020.acl-main.230.pdf): Video M2E2
 #### Models
 - [Jin et al., IEEE Transactions on Multimedia'21](https://ieeexplore.ieee.org/document/9405453)
 - [Wen et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.16.pdf): Video M2E2 (70.0 in Acc.)
@@ -135,18 +136,19 @@ Human languages always involve the description of real-world events, and so do m
 - [Bansal et al., COLING'20](https://aclanthology.org/2020.coling-main.448.pdf)
 - [Yin et al., arXiv preprint'20](https://arxiv.org/pdf/2007.09604.pdf)
 ### 2. Constrained Learning
-- [Han et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.461.pdf): propose a framework that enhances deep  neural  network  with distributional  constraints constructed by probabilistic domain knowledge. We solve the constrained inference problem via Lagrangian Relaxation and apply it to end-to-end event temporal relation extraction tasks
+- [Han et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.461.pdf): propose a framework that enhances deep neural network with distributional constraints constructed by probabilistic domain knowledge. We solve the constrained inference problem via Lagrangian Relaxation and apply it to end-to-end event temporal relation extraction tasks
 - [Wang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.51.pdf)
 ### 3. Zero-shot (few-shot) Learning
 - [Zhang et al., ACL'21 (Findings)](https://arxiv.org/abs/2012.15243)
 - [Lyu et al., ACL'21]()
 ### 4. Graph Networks
-- [Chen et al., AACL'20](https://aclanthology.org/2020.aacl-main.81.pdf): build graphs with candidate role filler extractions enriched by sentential  embeddings  as nodes, and use graph attention networks to identify event regions in a document and aggregate event information
+- [Chen et al., AACL'20](https://aclanthology.org/2020.aacl-main.81.pdf): build graphs with candidate role filler extractions enriched by sentential embeddings as nodes, and use graph attention networks to identify event regions in a document and aggregate event information
 - [Wen et al., NAACL'21](https://aclanthology.org/2021.naacl-main.6.pdf)
 ### 5. Noisy Labels
 - [Zhou et al., arXiv preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
 ### 6. Pre-training
-- [He et al., ACL'20](https://aclanthology.org/2020.acl-main.772.pdf)
-- []
+- [Zhou et al., ACL'20](https://aclanthology.org/2020.acl-main.678.pdf): proposes a novel sequence modeling approach that exploits explicit and implicit mentions of temporal common sense, extracted from a large corpus, to build TACOLM, a temporal common sense language model.
+- [He et al., ACL'20](https://aclanthology.org/2020.acl-main.772.pdf): QUASE learns representations from QA data, using BERT or other state-of-the-art contextual language models
+
 
 ## <a name="Ack"></a> Acknowledgements
