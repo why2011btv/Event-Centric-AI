@@ -11,13 +11,13 @@
 Human languages always involve the description of real-world events, and so do millions of videos on the Internet. 
 
 ## <a name="NLP_Tasks"></a> NLP Tasks
-### Event extraction (Detection)
+### 1. Event extraction (Detection)
 #### Datasets
 - [ACE 2005](https://catalog.ldc.upenn.edu/LDC2006T06): provides entity, value, time, relation, and event annotations for English, Chinese, and Arabic.
 - [MAVEN](https://www.aclweb.org/anthology/2020.emnlp-main.129.pdf): select 4,480 documents in total, covering 90 of the 95 major event topics defined in EventWiki. 
 #### Models
 - [OneIE](https://www.aclweb.org/anthology/2020.acl-main.713.pdf)
-### Temporal relations
+### 2. Temporal relations
 #### Datasets
 - [TimeML](https://www.aaai.org/Papers/Symposia/Spring/2003/SS-03-07/SS03-07-005.pdf): a specification language for events and temporal expressions; EVENT, TIMEX3, SIGNAL, and LINK.
 - [2012 i2b2 Challenge](https://academic.oup.com/jamia/article/20/5/806/726374): The Sixth Informatics for Integrating Biology and the Bedside (i2b2) Natural Language Processing Challenge for Clinical Records focused on the temporal relations in clinical narratives. 
@@ -37,7 +37,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Han et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.7.pdf): TB-Dense (64.5 in F1), MATRES (75.5 in F1)
 - [Wen et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.16.pdf): MATRES (78.8 in F1), MATRES-b (89.6 in Acc.)
 
-### Causal relations
+### 3. Causal relations et al. (pre-condition, enablement, counterfactual)
 #### Datasets
 - [RED](https://www.aclweb.org/anthology/W16-5706.pdf)
 - [CaTeRs](https://www.aclweb.org/anthology/W16-1007.pdf)
@@ -45,7 +45,7 @@ Human languages always involve the description of real-world events, and so do m
 #### Models
 - [Ning et al., ACL'18](https://www.aclweb.org/anthology/P18-1212.pdf): TCR (77.3 in F1)
 
-### Super-sub (parent-child) relations / Event Hierarchy Construction
+### 4. Super-sub (parent-child) relations / Event Hierarchy Construction
 #### Datasets
 - [RED](https://www.aclweb.org/anthology/W16-5706.pdf)
 - [HiEve](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1023_Paper.pdf): randomly selected 100 documents from the GraphEve corpus, which contains gold-annotated event mentions; given a pair of event mentions, annotators were instructed to annotate one of the following relation types: SuperSub, SubSuper, Coref, NoRel
@@ -54,12 +54,13 @@ Human languages always involve the description of real-world events, and so do m
 #### Models
 - [Araki et al., LREC'14]: We used a corpus consisting of 65 newspaper articles in the IC domain.
 
-### Essentiality & Salience
+### 5. Essentiality & Salience
 #### Datasets
 #### Models
 - [Upadhyay et al., EVENTS WS'16](https://aclanthology.org/W16-1001.pdf)
 - [Choubey et al., NAACL'18](https://aclanthology.org/N18-2055.pdf)
-- [Jindal et al., COLING'20](https://aclanthology.org/2020.coling-main.10.pdf): 
+- [Jindal et al., COLING'20](https://aclanthology.org/2020.coling-main.10.pdf)
+- [Zhang et al., ongoing]
 
 
 ### Schema Induction
