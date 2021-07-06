@@ -66,9 +66,13 @@ Human languages always involve the description of real-world events, and so do m
 ### Schema Induction
 #### Models
 - [Li et al., EMNLP'20](https://www.aclweb.org/anthology/2020.emnlp-main.50.pdf): Event Graph Schema, where two event types are connected through multiple paths involving entities that fill important roles in a coherent story; introduce Path Language Model, an auto-regressive language model trained on event-event paths,  and select salient and coherent paths to probabilistically construct these graph schemas. 
+- [Zhang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.119.pdf): leverages analogies among processes and conceptualization of sub-event instances to predict the whole sub-event sequence of previously unseen open-domain processes
 
-### Event Embedding
+### Event Representation & Application
 #### Models
+- [Chaturvedi et al., EMNLP'17](https://aclanthology.org/D17-1168.pdf): Event Prediction
+- [Peng et al., CoNLL'17](https://aclanthology.org/K17-1019.pdf): 
+- [Peng et al., CoNLL'19](https://aclanthology.org/K19-1051/): EventLM
 - [Zeng et al., TextGraphs'21](https://www.aclweb.org/anthology/2021.textgraphs-1.5.pdf): Event Network Embedding, aiming at representing events with low-dimensional and informative embeddings by incorporating neighboring events; Event Network constructed from one VOA news article, where events are connected through entities involved; 
 
 ## <a name="CV_Tasks"></a> Events in CV
