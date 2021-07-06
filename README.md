@@ -55,6 +55,14 @@ Human languages always involve the description of real-world events, and so do m
 #### Models
 - [Araki et al., LREC'14]: We used a corpus consisting of 65 newspaper articles in the IC domain.
 
+### Essentiality & Salience
+#### Datasets
+#### Models
+- [Upadhyay et al., EVENTS WS'16](https://aclanthology.org/W16-1001.pdf)
+- [Choubey et al., NAACL'18](https://aclanthology.org/N18-2055.pdf)
+- [Jindal et al., COLING'20](https://aclanthology.org/2020.coling-main.10.pdf): 
+
+
 ### Schema Induction
 #### Models
 - [Li et al., EMNLP'20](https://www.aclweb.org/anthology/2020.emnlp-main.50.pdf): Event Graph Schema, where two event types are connected through multiple paths involving entities that fill important roles in a coherent story; introduce Path Language Model, an auto-regressive language model trained on event-event paths,  and select salient and coherent paths to probabilistically construct these graph schemas. 
