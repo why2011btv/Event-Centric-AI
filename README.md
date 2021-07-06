@@ -105,12 +105,14 @@ Human languages always involve the description of real-world events, and so do m
 ## <a name="Methods"></a> Methodology
 ### 1. Meta-Learning
 ### 2. Constrained Learning
+- [Han et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.461.pdf): propose a framework that enhances deep  neural  network  with distributional  constraints constructed by probabilistic domain knowledge. We solve the constrained inference problem via Lagrangian Relaxation and apply it to end-to-end event temporal relation extraction tasks
+- [Wang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.51.pdf)
 ### 3. Zero-shot (few-shot) Learning
 - [Zhang et al., ACL'21 (Findings)](https://arxiv.org/abs/2012.15243)
 - [Lyu et al., ACL'21]()
 ### 4. Graph Networks
 - [Wen et al., NAACL'21](https://aclanthology.org/2021.naacl-main.6.pdf)
 ### 5. Noisy Labels
-- [Zhou et al., preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
+- [Zhou et al., arXiv preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
 
 ## <a name="Ack"></a> Acknowledgements
