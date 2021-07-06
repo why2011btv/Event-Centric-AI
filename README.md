@@ -17,7 +17,14 @@ Human languages always involve the description of real-world events, and so do m
 - [MAVEN](https://www.aclweb.org/anthology/2020.emnlp-main.129.pdf): select 4,480 documents in total, covering 90 of the 95 major event topics defined in EventWiki. 
 #### Models
 - [OneIE](https://www.aclweb.org/anthology/2020.acl-main.713.pdf)
-### 2. Temporal relations
+
+### 2. Event Coreference Resolution
+#### Datasets
+- [ECB+]()
+#### Models
+- [Choubey et al., EACL'21](https://aclanthology.org/N18-1077.pdf)
+- 
+### 3. Temporal relations
 #### Datasets
 - [TimeML](https://www.aaai.org/Papers/Symposia/Spring/2003/SS-03-07/SS03-07-005.pdf): a specification language for events and temporal expressions; EVENT, TIMEX3, SIGNAL, and LINK.
 - [2012 i2b2 Challenge](https://academic.oup.com/jamia/article/20/5/806/726374): The Sixth Informatics for Integrating Biology and the Bedside (i2b2) Natural Language Processing Challenge for Clinical Records focused on the temporal relations in clinical narratives. 
@@ -37,7 +44,7 @@ Human languages always involve the description of real-world events, and so do m
 - [Han et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.7.pdf): TB-Dense (64.5 in F1), MATRES (75.5 in F1)
 - [Wen et al., NAACL'21 Demo](https://www.aclweb.org/anthology/2021.naacl-demos.16.pdf): MATRES (78.8 in F1), MATRES-b (89.6 in Acc.)
 
-### 3. Causal relations et al. (pre-condition, enablement, counterfactual)
+### 4. Causal relations et al. (pre-condition, enablement, counterfactual)
 #### Datasets
 - [RED](https://www.aclweb.org/anthology/W16-5706.pdf)
 - [CaTeRs](https://www.aclweb.org/anthology/W16-1007.pdf)
@@ -45,7 +52,7 @@ Human languages always involve the description of real-world events, and so do m
 #### Models
 - [Ning et al., ACL'18](https://www.aclweb.org/anthology/P18-1212.pdf): TCR (77.3 in F1)
 
-### 4. Super-sub (parent-child) relations / Event Hierarchy Construction
+### 5. Super-sub (parent-child) relations / Event Hierarchy Construction
 #### Datasets
 - [RED](https://www.aclweb.org/anthology/W16-5706.pdf)
 - [HiEve](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1023_Paper.pdf): randomly selected 100 documents from the GraphEve corpus, which contains gold-annotated event mentions; given a pair of event mentions, annotators were instructed to annotate one of the following relation types: SuperSub, SubSuper, Coref, NoRel
@@ -54,7 +61,7 @@ Human languages always involve the description of real-world events, and so do m
 #### Models
 - [Araki et al., LREC'14]: We used a corpus consisting of 65 newspaper articles in the IC domain.
 
-### 5. Essentiality & Salience
+### 6. Essentiality & Salience
 #### Datasets
 #### Models
 - [Upadhyay et al., EVENTS WS'16](https://aclanthology.org/W16-1001.pdf)
@@ -62,25 +69,35 @@ Human languages always involve the description of real-world events, and so do m
 - [Jindal et al., COLING'20](https://aclanthology.org/2020.coling-main.10.pdf)
 - [Zhang et al., ongoing]
 
-### 6. Goal / Intention Detection
+### 7. Goal / Intention Detection
 #### Models
 - [Zhang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.374v2.pdf)
 - [Lyu et al., AACL'20](https://aclanthology.org/2020.aacl-main.35.pdf)
 - [Chen et al., CoNLL'20](https://aclanthology.org/2020.conll-1.43.pdf)
 
-### 7. Schema Induction
+### 8. Implicit Events
+- [Zhou et al., NAACL'21](https://aclanthology.org/2021.naacl-main.107.pdf)
+
+### 9. Schema Induction
 #### Models
 - [Li et al., EMNLP'20](https://www.aclweb.org/anthology/2020.emnlp-main.50.pdf): Event Graph Schema, where two event types are connected through multiple paths involving entities that fill important roles in a coherent story; introduce Path Language Model, an auto-regressive language model trained on event-event paths,  and select salient and coherent paths to probabilistically construct these graph schemas. 
 - [Zhang et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.119.pdf): leverages analogies among processes and conceptualization of sub-event instances to predict the whole sub-event sequence of previously unseen open-domain processes
 
-### 8. Event Representation & Application
+### 10. Event Representation & Application
 #### Models
 - [Chaturvedi et al., EMNLP'17](https://aclanthology.org/D17-1168.pdf): Event Prediction
 - [Peng et al., CoNLL'17](https://aclanthology.org/K17-1019.pdf): 
 - [Peng et al., CoNLL'19](https://aclanthology.org/K19-1051/): EventLM
 - [Zeng et al., TextGraphs'21](https://www.aclweb.org/anthology/2021.textgraphs-1.5.pdf): Event Network Embedding, aiming at representing events with low-dimensional and informative embeddings by incorporating neighboring events; Event Network constructed from one VOA news article, where events are connected through entities involved; 
 
-### <a name="KG_Tasks"></a> 9. Event Knowledge Graphs
+### 11. Common Sense & Knowledge
+#### Models
+- [Ning et al., NAACL'18](https://aclanthology.org/N18-1077.pdf)
+- [Zhou et al., ACL'20](https://aclanthology.org/2020.acl-main.678.pdf)
+- [Yao et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.430.pdf)
+- [Choubey et al., EACL'21](https://aclanthology.org/2021.eacl-main.101.pdf)
+
+### <a name="KG_Tasks"></a> 12. Event Knowledge Graphs
 - [EventKG](https://arxiv.org/pdf/1804.04526.pdf): A Multilingual Event-Centric Temporal Knowledge Graph
 - [ASER](https://hkust-knowcomp.github.io/ASER/html/index.html): Activities, States, Events, and their Relations
 - [EventWiki](https://www.aclweb.org/anthology/L18-1079.pdf): EventWiki concentrate on major events, in which all entries in EventWiki are important events in mankind history. 
@@ -117,5 +134,8 @@ Human languages always involve the description of real-world events, and so do m
 - [Wen et al., NAACL'21](https://aclanthology.org/2021.naacl-main.6.pdf)
 ### 5. Noisy Labels
 - [Zhou et al., arXiv preprint'21](https://arxiv.org/pdf/2104.08656.pdf)
+### 6. Pre-training
+- [He et al., ACL'20](https://aclanthology.org/2020.acl-main.772.pdf)
+- []
 
 ## <a name="Ack"></a> Acknowledgements
