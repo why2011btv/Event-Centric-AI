@@ -68,6 +68,7 @@ Human languages always involve the description of real-world events, and so do m
 #### Models
 - [Araki et al., LREC'14](http://www.lrec-conf.org/proceedings/lrec2014/pdf/963_Paper.pdf): We used a corpus consisting of 65 newspaper articles in the IC domain.
 - [Badgett et al., EMNLP'16](https://aclanthology.org/D16-1088.pdf)
+- [Yao et al., EMNLP'20](https://aclanthology.org/2020.emnlp-main.430.pdf)
 
 ### 6. Essentiality & Salience
 #### Datasets
