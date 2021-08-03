@@ -39,6 +39,7 @@ Human languages always involve the description of real-world events, and so do m
 - [McTaco](https://www.aclweb.org/anthology/D19-1332.pdf): 13K tuples, in the form of (sentence, question, candidate answer)
 - [TORQUE](https://www.aclweb.org/anthology/2020.emnlp-main.88.pdf): a new English reading comprehension benchmark built on 3.2k news snippets with 21k human-generated questions querying temporal relationships
 #### Models
+- [Pustejovsky et al., 2003; Chklovski and Pantel, 2004; Bethard, 2013; Llorens et al., 2010; D’Souza and Ng, 2013; Chambers et al., 2014]()
 - [Ning et al. (TCR), ACL'18](https://www.aclweb.org/anthology/P18-1212.pdf): TCR (71.1 in F1)
 - [Ning et al. (MATRES), ACL'18](https://www.aclweb.org/anthology/P18-1122.pdf): MATRES (69.0 in F1)
 - [Ning et al., EMNLP'19](https://www.aclweb.org/anthology/D19-1642.pdf): MATRES (76.7 in F1), TCR (78.6 in F1)
@@ -55,6 +56,7 @@ Human languages always involve the description of real-world events, and so do m
 - [CaTeRs](https://www.aclweb.org/anthology/W16-1007.pdf)
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf): five types of event semantic relations: CAUSAL, SUB-EVENT, CO-REFERENCE, CONDITIONAL and COUNTERFACTUAL
 #### Models
+- [Girju, 2003; Bethard and Martin, 2008; Riaz and Girju, 2010; Do et al., 2011; Riaz and Girju, 2013; Mirza and Tonelli, 2014, 2016]()
 - [Segers et al., LREC'18](https://aclanthology.org/L18-1725.pdf)
 - [Ning et al., ACL'18](https://www.aclweb.org/anthology/P18-1212.pdf): TCR (77.3 in F1)
 - [Gao et al., NAACL'19](https://aclanthology.org/N19-1179.pdf)
