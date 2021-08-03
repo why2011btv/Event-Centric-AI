@@ -21,8 +21,9 @@ Human languages always involve the description of real-world events, and so do m
 
 ### 2. Event Coreference Resolution
 #### Datasets
-- [ECB+]()
+- [ECB+](http://www.lrec-conf.org/proceedings/lrec2014/pdf/840_Paper.pdf)
 #### Models
+- [Upadhyay et al., 2016](https://aclanthology.org/C16-1183.pdf)
 - [Choubey et al., ACL'18](https://aclanthology.org/P18-1045.pdf)
 - [Choubey et al., EACL'21](https://aclanthology.org/2021.eacl-main.101.pdf)
 - [Lai et al., NAACL'21](https://aclanthology.org/2021.naacl-main.274.pdf)
