@@ -17,7 +17,7 @@ Human languages always involve the description of real-world events, and so do m
 - [REO](): the Rich Event Ontology (REO) ([Brown et al., 2017](https://aclanthology.org/W17-2712/)) unifies two existing knowledge resources (i.e., FrameNet ([Fillmore et al., 2003](https://framenet.icsi.berkeley.edu/fndrupal/)) and VerbNet ([Kipper et al., 2008](https://verbs.colorado.edu/verbnet/))) and two event annotated datasets (i.e., ACE ([Doddington et al., 2004](https://aclanthology.org/L04-1011/)) and ERE ([Song et al., 2015](https://aclanthology.org/W15-0812/))) to allow users to query multiple linguistic resources and combine event annotations. 
 - [MAVEN](https://www.aclweb.org/anthology/2020.emnlp-main.129.pdf): select 4,480 documents in total, covering 90 of the 95 major event topics defined in EventWiki. 
 #### Models
-- [OneIE](https://www.aclweb.org/anthology/2020.acl-main.713.pdf)
+- [Lin et al., ACL'20](https://www.aclweb.org/anthology/2020.acl-main.713.pdf): OneIE
 
 ### 2. Event Coreference Resolution
 #### Datasets
