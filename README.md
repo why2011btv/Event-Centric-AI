@@ -55,6 +55,7 @@ Human languages always involve the description of real-world events, and so do m
 - [CaTeRs](https://www.aclweb.org/anthology/W16-1007.pdf)
 - [ESTER](https://arxiv.org/pdf/2104.08350.pdf): five types of event semantic relations: CAUSAL, SUB-EVENT, CO-REFERENCE, CONDITIONAL and COUNTERFACTUAL
 #### Models
+- [Segers et al., LREC'18](https://aclanthology.org/L18-1725.pdf)
 - [Ning et al., ACL'18](https://www.aclweb.org/anthology/P18-1212.pdf): TCR (77.3 in F1)
 - [Gao et al., NAACL'19](https://aclanthology.org/N19-1179.pdf)
 
