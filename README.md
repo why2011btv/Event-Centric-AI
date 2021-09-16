@@ -11,6 +11,9 @@
 Human languages always involve the description of real-world events, and so do millions of videos on the Internet. 
 
 ## <a name="NLP_Tasks"></a> NLP Tasks
+### 0. Annotation Efforts
+- [TAC KBP 2017 Event Sequence Annotation Guidelines v1.1](http://cairo.lti.cs.cmu.edu/kbp/2017/event/TAC_KBP_2017_Event_Coreference_and_Sequence_Annotation_Guidelines_v1.1.pdf)
+
 ### 1. Event extraction (Detection)
 #### Datasets
 - [ACE 2005](https://catalog.ldc.upenn.edu/LDC2006T06): provides entity, value, time, relation, and event annotations for English, Chinese, and Arabic.
